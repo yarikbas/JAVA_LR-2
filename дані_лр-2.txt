@@ -1,0 +1,15 @@
+1 Ivanenko Ivan Petrovych Kyiv 1234567812345678 2500,50
+2 Shevchenko Taras Hryhorovych Lviv 9876543298765432 -1000,00
+3 Petrenko Olena Ivanivna Odesa 4567123445671234 500,75
+4 Kovalenko Andriy Mykolayovych Kharkiv 1122334455667788 -750,30
+5 Bondarenko Kateryna Sergiivna Dnipro 2233445566778899 3250,90
+6 Tkachenko Ivan Volodymyrovych Poltava 3344556677889900 -1999,99
+7 Kravchenko Oleksandr Pavlovych Zaporizhzhia 4455667788990011 120,00
+8 Melnyk Olena Anatoliivna Vinnytsia 5566778899001122 -845,65
+9 Polishchuk Dmytro Viktorovych Chernihiv 6677889900112233 3100,10
+10 Sydorenko Halyna Stepanivna Sumy 7788990011223344 -50,00
+11 Moroz Ivan Oleksandrivna Rivne 8899001122334455 600,40
+12 Havrylenko Vasyl Ivanovych Ternopil 9900112233445566 -1325,75
+13 Lysenko Natalia Yuriyivna Zhytomyr 1002003004005006 2750,20
+14 Chernenko Bohdan Mykhailovych Cherkasy 2003004005006007 -999,99
+15 Danylko Olena Artemivna Uzhhorod 3004005006007008 4120,00
