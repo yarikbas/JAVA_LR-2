@@ -24,22 +24,22 @@ public class Customer {
     private int id;
 
     /** Прізвище клієнта. */
-    private String LastName;
+    private String lastName;
 
     /** Ім’я клієнта. */
-    private String FirstName;
+    private String firstName;
 
     /** По батькові клієнта. */
-    private String MiddleName;
+    private String middleName;
 
     /** Адреса клієнта. */
-    private String Address;
+    private String address;
 
     /** Номер кредитної картки клієнта. */
-    private long CreditCardNumber;
+    private long creditCardNumber;
 
     /** Баланс кредитної картки (може бути від’ємним). */
-    private double CreditCardBalance;
+    private double creditCardBalance;
 
     /**
      * Конструктор за замовчуванням.
@@ -47,34 +47,34 @@ public class Customer {
      */
     public Customer() {
         this.id = 0;
-        this.LastName = "Unknown";
-        this.FirstName = "Unknown";
-        this.MiddleName = "Unknown";
-        this.Address = "Unknown";
-        this.CreditCardNumber = 0;
-        this.CreditCardBalance = 0;
+        this.lastName = "Unknown";
+        this.firstName = "Unknown";
+        this.middleName = "Unknown";
+        this.address = "Unknown";
+        this.creditCardNumber = 0;
+        this.creditCardBalance = 0;
     }
 
     /**
      * Повний конструктор.
      *
      * @param id                ідентифікатор клієнта
-     * @param LastName          прізвище
-     * @param FirstName         ім’я
-     * @param MiddleName        по батькові
-     * @param Address           адреса
-     * @param CreditCardNumber  номер кредитної картки
-     * @param CreditCardBalance баланс кредитної картки
+     * @param lastName          прізвище
+     * @param firstName         ім’я
+     * @param middleName        по батькові
+     * @param address           адреса
+     * @param creditCardNumber  номер кредитної картки
+     * @param creditCardBalance баланс кредитної картки
      */
-    public Customer(int id, String LastName, String FirstName, String MiddleName,
-                    String Address, long CreditCardNumber, double CreditCardBalance) {
+    public Customer(int id, String lastName, String firstName, String middleName,
+                    String address, long creditCardNumber, double creditCardBalance) {
         this.id = id;
-        this.LastName = LastName;
-        this.FirstName = FirstName;
-        this.MiddleName = MiddleName;
-        this.Address = Address;
-        this.CreditCardNumber = CreditCardNumber;
-        this.CreditCardBalance = CreditCardBalance;
+        this.lastName = lastName;
+        this.firstName = firstName;
+        this.middleName = middleName;
+        this.address = address;
+        this.creditCardNumber = creditCardNumber;
+        this.creditCardBalance = creditCardBalance;
     }
 
     /**
@@ -95,84 +95,84 @@ public class Customer {
      * @return прізвище клієнта
      */
     public String getLastName() {
-        return LastName;
+        return lastName;
     }
 
     /**
-     * @param LastName нове прізвище клієнта
+     * @param lastName нове прізвище клієнта
      */
-    public void setLastName(String LastName) {
-        this.LastName = LastName;
+    public void setLastName(String lastName) {
+        this.lastName = lastName;
     }
 
     /**
      * @return ім’я клієнта
      */
     public String getFirstName() {
-        return FirstName;
+        return firstName;
     }
 
     /**
-     * @param FirstName нове ім’я клієнта
+     * @param firstName нове ім’я клієнта
      */
-    public void setFirstName(String FirstName) {
-        this.FirstName = FirstName;
+    public void setFirstName(String firstName) {
+        this.firstName = firstName;
     }
 
     /**
      * @return по батькові клієнта
      */
     public String getMiddleName() {
-        return MiddleName;
+        return middleName;
     }
 
     /**
-     * @param MiddleName нове по батькові клієнта
+     * @param middleName нове по батькові клієнта
      */
-    public void setMiddleName(String MiddleName) {
-        this.MiddleName = MiddleName;
+    public void setMiddleName(String middleName) {
+        this.middleName = middleName;
     }
 
     /**
      * @return адреса клієнта
      */
     public String getAddress() {
-        return Address;
+        return address;
     }
 
     /**
-     * @param Address нова адреса клієнта
+     * @param address нова адреса клієнта
      */
-    public void setAddress(String Address) {
-        this.Address = Address;
+    public void setAddress(String address) {
+        this.address = address;
     }
 
     /**
      * @return номер кредитної картки
      */
     public long getCreditCardNumber() {
-        return CreditCardNumber;
+        return creditCardNumber;
     }
 
     /**
-     * @param CreditCardNumber новий номер кредитної картки
+     * @param creditCardNumber новий номер кредитної картки
      */
-    public void setCreditCardNumber(long CreditCardNumber) {
-        this.CreditCardNumber = CreditCardNumber;
+    public void setCreditCardNumber(long creditCardNumber) {
+        this.creditCardNumber = creditCardNumber;
     }
 
     /**
      * @return баланс кредитної картки
      */
     public double getCreditCardBalance() {
-        return CreditCardBalance;
+        return creditCardBalance;
     }
 
     /**
-     * @param CreditCardBalance новий баланс кредитної картки
+     * @param creditCardBalance новий баланс кредитної картки
      */
-    public void setCreditCardBalance(double CreditCardBalance) {
-        this.CreditCardBalance = CreditCardBalance;
+    public void setCreditCardBalance(double creditCardBalance) {
+        this.creditCardBalance = creditCardBalance;
     }
 
     /**
