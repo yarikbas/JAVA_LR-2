@@ -1,4 +1,4 @@
-package com.customer.model.Customer;
+package com.customer.model;
 
 /**
  * Модель сутності {@code Customer}, що представляє клієнта банку/системи.

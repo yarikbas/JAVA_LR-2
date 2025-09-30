@@ -1,6 +1,6 @@
-package com.customer.app.Main;
+package com.customer;
 
-import com.customer.model.Customer.Customer;
+import com.customer.model.Customer;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -25,7 +25,7 @@ import java.io.FileNotFoundException;
  * За потреби змініть його під свою систему або додайте зчитування шляху з консолі.</p>
  *
  * @author  Basarab_Yaroslav
- * @version 1.0
+ * @version 1.13
  * @since   1.0
  */
 public class Main {
